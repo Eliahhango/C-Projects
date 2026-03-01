@@ -80,7 +80,7 @@ void viewReport(const Student students[], int count) {
             percent = (students[i].presentDays * 100.0f) / students[i].totalDays;
         }
 
-        printf("%-4d %-20s %-10d %-10d %-11.2f%%\n",
+        printf("%-4d %-20s %-10d %-10d %.2f%%\n",
                i + 1,
                students[i].name,
                students[i].presentDays,
